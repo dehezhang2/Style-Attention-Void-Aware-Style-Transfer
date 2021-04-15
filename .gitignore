@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+__pycache__
+logs
+log
+*.condor
+training_data
