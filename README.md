@@ -129,7 +129,7 @@ Although we have two contributions on the style transfer theory, there are limit
 
 * Principle of some settings cannot be well explained by theory.
   * Feature map projection method (ZCA for attention map, AdaIN for style transfer)
-  * Method to train the self-attention module (similar to [AAMS](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yao_Attention-Aware_Multi-Stroke_Style_Transfer_CVPR_2019_paper.pdf)
+  * Method to train the self-attention module (similar to [AAMS](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yao_Attention-Aware_Multi-Stroke_Style_Transfer_CVPR_2019_paper.pdf))
 * The limitation of computational resource.
   * The VGG decoder may not be properly trained.
   * It is diffcult to add attention loss to match the statistics of the style and output attention maps. 
