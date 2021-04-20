@@ -2,7 +2,7 @@
 
 A style-attention-void-aware style transfer model that learns the blank-leaving information during the style transfer.
 
-![Screen Shot 2021-04-20 at 2.28.32 PM](https://github.com/dehezhang2/Final_Year_Project/blob/master/README.assets/Screen%20Shot%202021-04-20%20at%201.15.53%20PM.png)
+![Screen Shot 2021-04-20 at 2.28.32 PM](https://github.com/dehezhang2/Final_Year_Project/blob/master/README.assets/Screen%20Shot%202021-04-20%20at%202.28.32%20PM-8903311.png)
 
 ## Overview
 
