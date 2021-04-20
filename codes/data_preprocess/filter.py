@@ -1,6 +1,3 @@
-# coding=utf-8
-# summary: Code of CVPR 2019 accepted paper Attention-aware Multi-stroke Style Transfer
-
 import glob
 import os
 from PIL import Image
