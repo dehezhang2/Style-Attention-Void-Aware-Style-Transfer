@@ -111,7 +111,7 @@ This is my final year project, which aims to utilize the style attention map to 
    python train_sava.py --content_dir ../../training_data/content_set/val2014 --style_dir ../../training_data/style_set/val2014 --save_dir ../../models/sava_training_hard
    ```
 
-   ## Result
+## Result
 
 Here is a comparison of self-attention map used in [AAMS](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yao_Attention-Aware_Multi-Stroke_Style_Transfer_CVPR_2019_paper.pdf) (a) and our result (b)
 
@@ -140,6 +140,6 @@ Although we have two contributions on the style transfer theory, there are limit
 * I express gratitude to [AAMS](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yao_Attention-Aware_Multi-Stroke_Style_Transfer_CVPR_2019_paper.pdf) and [SA-Net](https://arxiv.org/abs/1812.02342), we benefit a lot from both their papers and codes. 
 * Thanks to [Dr. Jing LIAO](https://liaojing.github.io/html/index.html). She has provided many insightful suggestions, such as the use of style attention, soft correlation mask, and attention loss to match the voidness statistics. I would like to express my sincere appreciation to [Kaiwen Xue](https://github.com/KevinRSX), who has provided many intelligent ideas on this project and helped me with part of the implementation. 
 
-### Contact
+## Contact
 
 If you have any questions or suggestions about this project, feel free to contact me by email<dehezhang2@gmail.com>.
