@@ -2,7 +2,7 @@
 
 A style-attention-void-aware style transfer model that learns the blank-leaving information during the style transfer.
 
-![Screen Shot 2021-04-20 at 2.28.32 PM](README.assets/Screen Shot 2021-04-20 at 2.28.32 PM-8903311.png)
+![Screen Shot 2021-04-20 at 2.28.32 PM](https://github.com/dehezhang2/Final_Year_Project/blob/master/README.assets/Screen%20Shot%202021-04-20%20at%201.15.53%20PM.png)
 
 ## Overview
 
@@ -60,15 +60,15 @@ This is my final year project, which aims to utilize the style attention map to 
 
    * Click the URL (or use forwarded ports)
 
-![Screen Shot 2021-04-20 at 2.18.28 PM](README.assets/Screen Shot 2021-04-20 at 2.18.28 PM-8899518.png)
+![Screen Shot 2021-04-20 at 2.18.28 PM](https://github.com/dehezhang2/Final_Year_Project/blob/master/README.assets/Screen%20Shot%202021-04-20%20at%202.18.28%20PM-8899518.png)
 
 4. Choose the content and style images
 
-   ![Screen Shot 2021-04-20 at 2.19.35 PM](README.assets/Screen Shot 2021-04-20 at 2.19.35 PM-8899589.png)
+   ![Screen Shot 2021-04-20 at 2.19.35 PM](https://github.com/dehezhang2/Final_Year_Project/blob/master/README.assets/Screen%20Shot%202021-04-20%20at%202.19.35%20PM-8899589.png)
 
 5. Click the `Start Transfer` button, and the attention maps, attention masks, and the relative frequency map of the content and style images will be visualised. The output will be shown. 
 
-   ![Screen Shot 2021-04-20 at 2.20.35 PM](README.assets/Screen Shot 2021-04-20 at 2.20.35 PM-8899708.png)
+   ![Screen Shot 2021-04-20 at 2.20.35 PM](https://github.com/dehezhang2/Final_Year_Project/blob/master/README.assets/Screen%20Shot%202021-04-20%20at%202.20.35%20PM-8899708.png)
 
 6. You can find the transfer output and attention maps in `Final_Year_Project/testing_data/result`.
 
@@ -96,7 +96,7 @@ This is my final year project, which aims to utilize the style attention map to 
 
 4. We have two training phases:
 
-   ![Screen Shot 2021-04-20 at 3.26.32 PM](README.assets/Screen Shot 2021-04-20 at 3.26.32 PM-8903694.png)
+   ![Screen Shot 2021-04-20 at 3.26.32 PM](https://github.com/dehezhang2/Final_Year_Project/blob/master/README.assets/Screen%20Shot%202021-04-20%20at%203.26.32%20PM-8903694.png)
 
    * Phase I training: train the self-attention module
 
@@ -115,11 +115,11 @@ This is my final year project, which aims to utilize the style attention map to 
 
 Here is a comparison of self-attention map used in [AAMS](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yao_Attention-Aware_Multi-Stroke_Style_Transfer_CVPR_2019_paper.pdf) (a) and our result (b)
 
-![Screen Shot 2021-04-20 at 3.26.43 PM](README.assets/Screen Shot 2021-04-20 at 3.26.43 PM-8903811.png)
+![Screen Shot 2021-04-20 at 3.26.43 PM](https://github.com/dehezhang2/Final_Year_Project/blob/master/README.assets/Screen%20Shot%202021-04-20%20at%203.26.43%20PM-8903811.png)
 
 Some results of content-style pairs are shown below (a) is our algorithm with attention masks, (b) is [SA-Net](https://arxiv.org/abs/1812.02342):
 
-![Screen Shot 2021-04-20 at 1.17.45 PM](README.assets/Screen Shot 2021-04-20 at 1.17.45 PM.png)
+![Screen Shot 2021-04-20 at 1.17.45 PM](https://github.com/dehezhang2/Final_Year_Project/blob/master/README.assets/Screen%20Shot%202021-04-20%20at%201.15.53%20PM.png)
 
 
 
