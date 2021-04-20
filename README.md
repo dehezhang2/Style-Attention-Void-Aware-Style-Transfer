@@ -142,4 +142,4 @@ Although we have two contributions on the style transfer theory, there are limit
 
 ### Contact
 
-If you have any questions or suggestions about this project, feel free to contact [Deheng Zhang](dehezhang2@gmail.com).
+If you have any questions or suggestions about this project, feel free to contact [Deheng Zhang]<dehezhang2@gmail.com>.
