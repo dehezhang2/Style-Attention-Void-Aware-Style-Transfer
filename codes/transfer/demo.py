@@ -179,9 +179,9 @@ if start_transfer:
     st.markdown('## **2.** Self-Attention Maps')
     col1, col2, col3= st.beta_columns([1,1, 2])
     with col1:
-        st.image(attn_imgs[:2], width = 150, caption = ['content attn map', 'content attn mask'])
+        st.image([attn_imgs[0], attn_imgs[2]], width = 150, caption = ['content attn map', 'style attn map'])
     with col2:
-        st.image(attn_imgs[2:], width = 150, caption = ['style attn map', 'style attn mask'])
+        st.image([attn_imgs[1], attn_imgs[3]], width = 150, caption = ['content attn mask', 'style attn mask'])
     with col3:
         attn_frequency = [content_attn4_1[0].reshape((1, -1)).cpu().detach().numpy()[0], style_attn4_1[0].reshape((1, -1)).cpu().detach().numpy()[0]]
         show_diagram(attn_frequency)
