@@ -1,5 +1,5 @@
 # Final Year Project -- Style-Attention-Void-Aware Style Transfer
-![Youtube Link](https://www.youtube.com/watch?v=3W4rLDDVyAQ)
+[Youtube Link](https://www.youtube.com/watch?v=3W4rLDDVyAQ)
 
 A style-attention-void-aware style transfer model that learns the blank-leaving information during the style transfer.
 
