@@ -140,7 +140,7 @@ style_name = st.sidebar.selectbox(
 content_image = get_image(args.content_dir + content_name)
 style_image = get_image(args.style_dir + style_name)
 
-col1, col2 = st.beta_columns(2)
+col1, col2 = st.columns(2)
 with col1:
     st.image(content_image, caption = 'content image')
 with col2:
@@ -177,7 +177,7 @@ if start_transfer:
     attn_imgs = [Image.open(args.result_dir + 'attn_' + str(cnt) + '.jpg') for cnt in range (1, 5)]
     
     st.markdown('## **2.** Self-Attention Maps')
-    col1, col2, col3= st.beta_columns([1,1, 2])
+    col1, col2, col3= st.columns([1,1, 2])
     with col1:
         st.image([attn_imgs[0], attn_imgs[2]], width = 150, caption = ['content attn map', 'style attn map'])
     with col2:
@@ -192,7 +192,7 @@ if start_transfer:
     save_output(output, args.result_dir + 'test.jpg')
     output_image = get_image(args.result_dir + 'test.jpg')
 
-    col1, col2, col3 = st.beta_columns([1,6,1])
+    col1, col2, col3 = st.columns([1,6,1])
     with col1:
         st.write("")
     with col2:
