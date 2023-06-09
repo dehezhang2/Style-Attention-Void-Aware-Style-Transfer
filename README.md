@@ -5,7 +5,7 @@ A style-attention-void-aware style transfer model that learns the blank-leaving 
 
 ## Overview
 
-![Screen Shot 2021-04-20 at 2.28.32 PM](./assets/Screen Shot 2021-04-20 at 2.28.32 PM-8903311.png)
+![Screen Shot 2021-04-20 at 2.28.32 PM](./assets/flow.png)
 
 Arbitrary-Style-Per-Model fast neural style transfer has shown great potential in the academic field. Although state-of-the-art algorithms have great visual effect and efficiency, they are unable to address the blank-leaving (or void) information in specific artworks (e.g. traditional Chinese artworks). The available algorithms always try to maintain the similarity of details in the images before and after transformation, but certain details are often left blank in the artworks. 
 
@@ -48,7 +48,7 @@ This is my final year project, which aims to utilize the style attention map to 
 
    * Click the URL (or use forwarded ports)
    
-     ![Screen Shot 2021-04-20 at 2.18.28 PM](./assets/Screen Shot 2021-04-20 at 2.18.28 PM-8899518.png)
+     ![Screen Shot 2021-04-20 at 2.18.28 PM](./assets/vscode.png)
 
 4. Choose the content and style images
 
